@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+
+<AnchorPane prefHeight="615.0" prefWidth="601.0" style="-fx-background-color: #030#5b4b4b307;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.Brac2RrspController">
+   <children>
+      <Line endX="499.0" layoutX="101.0" layoutY="271.0" startX="-100.0" />
+      <TextField fx:id="inNameTeam" layoutX="30.0" layoutY="287.0" prefHeight="39.0" prefWidth="389.0" promptText="name player" />
+      <Button fx:id="btnSave" layoutX="453.0" layoutY="326.0" mnemonicParsing="false" onAction="#btnSaveAction" prefHeight="24.0" prefWidth="111.0" text="save" />
+      <Label fx:id="labelPlayerHome" alignment="CENTER" layoutX="33.0" layoutY="151.0" prefHeight="39.0" prefWidth="240.0" text="Team 1" textFill="#c9bebe" />
+      <Label fx:id="labelPlayerGuest" alignment="CENTER" layoutX="327.0" layoutY="151.0" prefHeight="39.0" prefWidth="240.0" text="Team 2" textFill="#f2e2e2" />
+      <Label fx:id="labelPlayerWinner" alignment="CENTER" layoutX="180.0" layoutY="41.0" prefHeight="39.0" prefWidth="240.0" text="Winner Team" textFill="#e4d3d3" />
+      <ComboBox fx:id="whichPlace" editable="true" layoutX="30.0" layoutY="341.0" prefHeight="24.0" prefWidth="389.0" promptText="which place ?" />
+      <Button fx:id="btnWin" layoutX="373.0" layoutY="518.0" mnemonicParsing="false" onAction="#btnWinAction" prefHeight="24.0" prefWidth="192.0" text="Win" />
+      <Line endX="499.0" layoutX="101.0" layoutY="389.0" startX="-100.0" />
+      <Line endX="101.5" endY="61.0" layoutX="88.0" layoutY="90.0" startX="160.5" startY="-10.0" />
+      <Line endX="110.5" endY="54.0" layoutX="295.0" layoutY="97.0" startX="57.5" startY="-16.0" />
+      <Line endX="499.0" layoutX="110.0" layoutY="472.0" startX="-100.0" />
+      <Button fx:id="btnCommit" layoutX="152.0" layoutY="420.0" mnemonicParsing="false" onAction="#btnCommitAction" prefHeight="24.0" prefWidth="275.0" text="Commit" />
+      <ComboBox fx:id="WhoWinner" layoutX="49.0" layoutY="518.0" prefHeight="24.0" prefWidth="263.0" promptText="Winner ?" />
+   </children>
+</AnchorPane>

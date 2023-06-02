@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="166.0" prefWidth="612.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.InvitJoueurController">
+   <children>
+      <ImageView fitHeight="210.0" fitWidth="612.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/ribbon.png" />
+         </image></ImageView>
+      <TextField fx:id="idAjoutUsers" layoutX="14.0" layoutY="24.0" prefHeight="32.0" prefWidth="301.0" promptText="le nome de joueur" />
+      <Button fx:id="btnSave" layoutX="14.0" layoutY="100.0" mnemonicParsing="false" onAction="#btnSaveAction" prefHeight="24.0" prefWidth="136.0" text="Save" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="541.0" prefWidth="1017.0" style="-fx-background-color: #030307;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="workshop.MesReclamationController">
+   <children>
+      <ImageView fitHeight="97.0" fitWidth="596.0" layoutX="95.0" layoutY="433.0" pickOnBounds="true" preserveRatio="true" x="160.0" AnchorPane.topAnchor="433.0">
+         <image>
+            <Image url="@../images/rec00002.png" />
+         </image>
+      </ImageView>
+      <VBox layoutX="7.0" prefHeight="444.0" prefWidth="1010.0">
+         <children>
+            <HBox alignment="TOP_CENTER">
+               <children>
+                  <ImageView fx:id="img_logo" fitHeight="115.0" fitWidth="141.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/logo02.png" />
+                     </image>
+                  </ImageView>
+                  <TextField fx:id="txt_search" alignment="CENTER" focusTraversable="false" prefHeight="42.0" prefWidth="700.0" promptText="Research ..." styleClass="search-container" stylesheets="@../css/fullpackstyling.css">
+                     <HBox.margin>
+                        <Insets left="26.0" />
+                     </HBox.margin>
+                  </TextField>
+                  <Button fx:id="btn_add" mnemonicParsing="false" prefHeight="36.0" prefWidth="166.0" styleClass="button2" stylesheets="@../css/fullpackstyling.css" text="Claim" textFill="#5297ec">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="26.0" top="4.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="btn_deco" mnemonicParsing="false" onAction="#gotodashboard" prefHeight="36.0" prefWidth="166.0" styleClass="button4" stylesheets="@../css/fullpackstyling.css" text="Home" textFill="#eb5262">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="16.0" top="4.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+               <padding>
+                  <Insets bottom="16.0" left="16.0" right="16.0" top="16.0" />
+               </padding>
+            </HBox>
+            <HBox prefWidth="200.0">
+               <children>
+                  <Button fx:id="btn_tri" mnemonicParsing="false" prefHeight="36.0" prefWidth="166.0" styleClass="button3" stylesheets="@../css/fullpackstyling.css" text="Sort by date" textFill="#5297ec">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Button>
+               </children>
+               <padding>
+                  <Insets bottom="2.0" left="16.0" />
+               </padding>
+            </HBox>
+            <TableView fx:id="tabRecClient" prefHeight="323.0" prefWidth="1010.0">
+               <columns>
+                  <TableColumn fx:id="idRec" minWidth="0.0" prefWidth="0.0" text="idReclamation" />
+                  <TableColumn fx:id="uName" prefWidth="133.0" text="username" />
+                  <TableColumn fx:id="objet" prefWidth="101.0" text="Object" />
+                  <TableColumn fx:id="mess" prefWidth="207.0" text="Message" />
+                  <TableColumn fx:id="dd" prefWidth="111.0" text="Date" />
+                  <TableColumn fx:id="aa" prefWidth="242.0" text="Answer" />
+               </columns>
+            </TableView>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

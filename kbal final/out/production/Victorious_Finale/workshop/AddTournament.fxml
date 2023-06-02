@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="rootPaneCT" prefHeight="369.0" prefWidth="434.0" style="-fx-background-color: transparent;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.AddTournamentController">
+    <children>
+        <ComboBox fx:id="listTouramentCT" layoutX="68.0" layoutY="39.0" prefHeight="45.0" prefWidth="299.0" promptText="Tournament" />
+        <Button fx:id="btnGo" contentDisplay="CENTER" layoutX="84.0" layoutY="206.0" mnemonicParsing="false" onAction="#Go" prefHeight="33.0" prefWidth="266.0" text="Go">
+            <opaqueInsets>
+                <Insets />
+            </opaqueInsets>
+        </Button>
+      <TextField fx:id="labelCode" layoutX="71.0" layoutY="125.0" prefHeight="34.0" prefWidth="293.0" promptText="Code Tournament" />
+    </children>
+</AnchorPane>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="313.0" prefWidth="309.0" style="-fx-background-color: transparent;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.UserShowTournamentController">
+   <children>
+      <Button fx:id="btnChat" layoutX="26.0" layoutY="69.0" mnemonicParsing="false" onAction="#btnChatAction" prefHeight="28.0" prefWidth="258.0" text="Chat" />
+      <Button fx:id="btnJouer" layoutX="26.0" layoutY="176.0" mnemonicParsing="false" onAction="#JouerAction" prefHeight="28.0" prefWidth="258.0" text="Jouer" />
+   </children>
+</AnchorPane>

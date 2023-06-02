@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="431.0" prefWidth="382.0" style="-fx-background-color: transparent;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.CreateTournamentController">
+   <children>
+      <Label alignment="CENTER" layoutX="14.0" layoutY="40.0" text="Tournament_Name" textFill="#ae6363">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label alignment="CENTER" layoutX="14.0" layoutY="109.0" text="Code" textFill="#ae6363">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label alignment="CENTER" layoutX="14.0" layoutY="178.0" text="Type" textFill="#ae6363">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label alignment="CENTER" layoutX="14.0" layoutY="236.0" text="Game" textFill="#ae6363">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <TextField fx:id="code" layoutX="191.0" layoutY="113.0" prefHeight="24.0" prefWidth="171.0" promptText="open if none" />
+      <TextField fx:id="nameTournament" layoutX="191.0" layoutY="36.0" promptText="name Tournament" />
+      <ComboBox fx:id="listType" layoutX="171.0" layoutY="182.0" prefHeight="24.0" prefWidth="190.0" promptText="type" />
+      <ComboBox fx:id="listGame" layoutX="171.0" layoutY="240.0" prefHeight="24.0" prefWidth="190.0" promptText="game" />
+      <Button fx:id="save" layoutX="96.0" layoutY="305.0" mnemonicParsing="false" onAction="#saveAction" prefHeight="24.0" prefWidth="150.0" text="save" />
+   </children>
+</AnchorPane>

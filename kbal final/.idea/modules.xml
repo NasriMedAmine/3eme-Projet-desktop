@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Nouveau dossier.iml" filepath="$PROJECT_DIR$/.idea/Nouveau dossier.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JDBC/Victorious/Victorious.iml" filepath="$PROJECT_DIR$/JDBC/Victorious/Victorious.iml" />
+      <module fileurl="file://$PROJECT_DIR$/serv/JDBC/Victorious/Victorious1.iml" filepath="$PROJECT_DIR$/serv/JDBC/Victorious/Victorious1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Victorious_Finale/Victorious_Finale.iml" filepath="$PROJECT_DIR$/Victorious_Finale/Victorious_Finale.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JDBC/khedmet-prof/khedmet-prof.iml" filepath="$PROJECT_DIR$/JDBC/khedmet-prof/khedmet-prof.iml" />
+      <module fileurl="file://$PROJECT_DIR$/serv/JDBC/khedmet-prof/khedmet-prof1.iml" filepath="$PROJECT_DIR$/serv/JDBC/khedmet-prof/khedmet-prof1.iml" />
+    </modules>
+  </component>
+</project>

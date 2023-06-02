@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Victorious">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Victorious_Finale/dist/Victorious.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

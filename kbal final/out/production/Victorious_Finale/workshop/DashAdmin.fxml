@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="941.0" prefWidth="1355.0" style="-fx-background-radius: 20;" styleClass="parent" stylesheets="@../../build/classes/css/fullpackstyling.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.DashAdminController">
+   <children>
+      <AnchorPane prefHeight="942.0" prefWidth="1355.0" style="-fx-background-color: #030307; -fx-background-radius: 15;">
+         <children>
+            <ImageView fitHeight="65.0" fitWidth="252.0" layoutX="253.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/logo02.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="100.0" fitWidth="201.0" layoutX="73.0" layoutY="-8.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/logo3.png" />
+               </image>
+            </ImageView>
+            <Pane layoutX="862.0" layoutY="17.0" prefHeight="80.0" prefWidth="405.0" style="-fx-background-radius: 20 20 0 0;" styleClass="linear-grad" stylesheets="@../css/fullpackstyling.css">
+               <children>
+                  <Label alignment="CENTER" layoutX="149.0" layoutY="23.0" text="Admin" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="24.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="txt1" visible="false" />
+               </children>
+            </Pane>
+            <AnchorPane layoutX="90.0" layoutY="97.0" prefHeight="829.0" prefWidth="1179.0" style="-fx-background-color: #131022; -fx-background-radius: 10;" stylesheets="@../css/fullpackstyling.css">
+               <children>
+                  <Button layoutX="112.0" layoutY="91.0" mnemonicParsing="false" onAction="#GoToAdminI" prefHeight="704.0" prefWidth="393.0">
+                     <graphic>
+                        <ImageView fitHeight="696.0" fitWidth="394.0" onMouseClicked="#GoToAdminI" pickOnBounds="true">
+                           <image>
+                              <Image url="@../images/adminfffff.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button layoutX="664.0" layoutY="91.0" mnemonicParsing="false" onAction="#GoToAdmin" prefHeight="704.0" prefWidth="391.0">
+                     <graphic>
+                        <ImageView fitHeight="696.0" fitWidth="389.0" pickOnBounds="true">
+                           <image>
+                              <Image url="@../images/admindddddd.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

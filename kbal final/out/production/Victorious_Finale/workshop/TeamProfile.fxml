@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+
+<AnchorPane id="AnchorPane" prefHeight="543.0" prefWidth="861.0" styleClass="linear-grad" stylesheets="@../css/fullpackstyling.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.TeamProfileController">
+   <children>
+      <Label layoutX="31.0" layoutY="83.0" text="Name" textFill="WHITE" />
+      <Label layoutX="31.0" layoutY="177.0" text="N_Players" textFill="WHITE" />
+      <Label layoutX="28.0" layoutY="274.0" text="Players" textFill="WHITE" />
+      <Label layoutX="358.0" layoutY="83.0" text="Favorite_Teams" textFill="WHITE" />
+      <Label layoutX="358.0" layoutY="177.0" text="Description" textFill="WHITE" />
+      <Label layoutX="358.0" layoutY="273.0" text="Password" textFill="WHITE" />
+      <Line endX="100.0" endY="-27.0" layoutX="242.0" layoutY="79.0" startX="100.0" startY="267.0" />
+      <TextField fx:id="txtname" layoutX="121.0" layoutY="79.0" />
+      <TextField fx:id="txtpass" layoutX="474.0" layoutY="269.0" prefHeight="31.0" prefWidth="337.0" />
+      <TextField fx:id="txtdes" alignment="TOP_LEFT" layoutX="474.0" layoutY="172.0" prefHeight="79.0" prefWidth="337.0" />
+      <TextField fx:id="txtfavorite" layoutX="471.0" layoutY="78.0" prefHeight="31.0" prefWidth="337.0" />
+      <TextField fx:id="txtplayers" alignment="TOP_LEFT" layoutX="121.0" layoutY="259.0" prefHeight="56.0" prefWidth="187.0" />
+      <TextField fx:id="txtnb" layoutX="121.0" layoutY="173.0" />
+      <Button layoutX="599.0" layoutY="457.0" mnemonicParsing="false" onAction="#modify" prefHeight="41.0" prefWidth="87.0" text="Modify" />
+      <Button layoutX="732.0" layoutY="457.0" mnemonicParsing="false" onAction="#delete" prefHeight="41.0" prefWidth="87.0" text="Delete" />
+      <ImageView fx:id="view" fitHeight="154.0" fitWidth="224.0" layoutX="39.0" layoutY="366.0" pickOnBounds="true" />
+      <Button fx:id="btnadd" layoutX="119.0" layoutY="331.0" mnemonicParsing="false" onAction="#addplayers" text="Add Players" />
+      <Button fx:id="btnchange" layoutX="276.0" layoutY="462.0" mnemonicParsing="false" onAction="#changelogo" text="Change logo" />
+   </children>
+</AnchorPane>

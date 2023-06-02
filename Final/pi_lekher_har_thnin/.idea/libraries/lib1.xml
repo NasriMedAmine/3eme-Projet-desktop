@@ -1,0 +1,31 @@
+<component name="libraryTable">
+  <library name="lib1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Victorious_Finale/dist/lib/javafx.graphics.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Victorious_Finale/dist/lib/controlsfx-8.40.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Victorious_Finale/dist/lib/javafx.base.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Victorious_Finale/dist/lib/javafx.web.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Victorious_Finale/dist/lib/javafx.fxml.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Victorious_Finale/dist/lib/EasyXLS.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Victorious_Finale/dist/lib/fonts-fontawesome-3.2.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Victorious_Finale/dist/lib/javax.mail-1.6.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Victorious_Finale/dist/lib/jrt-fs.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Victorious_Finale/dist/lib/javax.mail.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Victorious_Finale/dist/lib/scenebuilder-17.0.0-all.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Victorious_Finale/dist/lib/mysql-connector-java-8.0.28.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Victorious_Finale/dist/lib/NotificationAPI.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Victorious_Finale/dist/lib/jfoenix-9.0.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Victorious_Finale/dist/lib/javafx.controls.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Victorious_Finale/dist/lib/javafx.media.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Victorious_Finale/dist/lib/css-parser-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Victorious_Finale/dist/lib/fontawesomefx-8.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Victorious_Finale/dist/lib/javafx-swt.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Victorious_Finale/dist/lib/javafx.swing.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Victorious_Finale/dist/lib/itextpdf-5.5.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Victorious_Finale/dist/lib/javafx-base-19-ea+3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Victorious_Finale/dist/lib/javafx-media-19-ea+3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
